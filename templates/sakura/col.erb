@@ -1,0 +1,58 @@
+﻿; テキストエディタ色設定 Ver3
+; Base16 <%= @scheme %> (https://github.com/chriskempson/base16)
+; Author: <%= @author %>
+
+[SakuraColor]
+C[BRC]=1,1,<%= @base["00"]["hexbgr"] %>,<%= @base["04"]["hexbgr"] %>,0			; 対括弧の強調表示
+C[CAR]=1,0,<%= @base["0B"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; カーソル
+C[CMT]=1,0,<%= @base["03"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; コメント
+C[CTL]=1,0,<%= @base["02"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; コントロールコード
+C[CBK]=1,0,<%= @base["00"]["hexbgr"] %>,<%= @base["01"]["hexbgr"] %>,0			; カーソル行の背景
+C[CVL]=0,0,<%= @base["00"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; カーソル位置縦線
+C[DFA]=0,1,<%= @base["00"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; DIFF差分表示(追加)
+C[DFC]=0,1,<%= @base["00"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; DIFF差分表示(変更)
+C[DFD]=0,1,<%= @base["00"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; DIFF差分表示(削除)
+C[EOF]=1,0,<%= @base["00"]["hexbgr"] %>,<%= @base["05"]["hexbgr"] %>,0			; EOF
+C[EOL]=1,0,<%= @base["03"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 改行記号
+C[FN2]=1,0,<%= @base["00"]["hexbgr"] %>,<%= @base["0D"]["hexbgr"] %>,0			; 検索文字列2
+C[FN3]=1,0,<%= @base["00"]["hexbgr"] %>,<%= @base["0D"]["hexbgr"] %>,0			; 検索文字列3
+C[FN4]=1,0,<%= @base["00"]["hexbgr"] %>,<%= @base["0D"]["hexbgr"] %>,0			; 検索文字列4
+C[FN5]=1,0,<%= @base["00"]["hexbgr"] %>,<%= @base["0D"]["hexbgr"] %>,0			; 検索文字列5
+C[FND]=1,0,<%= @base["00"]["hexbgr"] %>,<%= @base["0D"]["hexbgr"] %>,0			; 検索文字列
+C[IME]=1,0,<%= @base["09"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; カーソル(IME ON)
+C[KW1]=1,0,<%= @base["08"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 強調キーワード1
+C[KW2]=1,0,<%= @base["09"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 強調キーワード2
+C[KW3]=1,0,<%= @base["0A"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 強調キーワード3
+C[KW4]=1,0,<%= @base["0B"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 強調キーワード4
+C[KW5]=1,0,<%= @base["0C"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 強調キーワード5
+C[KW6]=1,0,<%= @base["0D"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 強調キーワード6
+C[KW7]=1,0,<%= @base["0E"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 強調キーワード7
+C[KW8]=1,0,<%= @base["0F"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 強調キーワード8
+C[KW9]=1,0,<%= @base["05"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 強調キーワード9
+C[KWA]=1,0,<%= @base["05"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 強調キーワード10
+C[LNO]=1,0,<%= @base["04"]["hexbgr"] %>,<%= @base["02"]["hexbgr"] %>,0			; 行番号
+C[MOD]=1,1,<%= @base["00"]["hexbgr"] %>,<%= @base["03"]["hexbgr"] %>,0			; 行番号(変更行)
+C[MRK]=1,0,<%= @base["00"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; ブックマーク
+C[NUM]=1,0,<%= @base["09"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 半角数値
+C[RAP]=1,0,<%= @base["0F"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 折り返し記号
+C[RK1]=1,0,<%= @base["08"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 正規表現キーワード1
+C[RK2]=1,0,<%= @base["09"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 正規表現キーワード2
+C[RK3]=1,0,<%= @base["0A"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 正規表現キーワード3
+C[RK4]=1,0,<%= @base["0B"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 正規表現キーワード4
+C[RK5]=1,0,<%= @base["0C"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 正規表現キーワード5
+C[RK6]=1,0,<%= @base["0D"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 正規表現キーワード6
+C[RK7]=1,0,<%= @base["0E"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 正規表現キーワード7
+C[RK8]=1,0,<%= @base["0F"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 正規表現キーワード8
+C[RK9]=1,0,<%= @base["05"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 正規表現キーワード9
+C[RKA]=1,0,<%= @base["05"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 正規表現キーワード10
+C[RUL]=1,0,<%= @base["02"]["hexbgr"] %>,<%= @base["05"]["hexbgr"] %>,0			; ルーラー
+C[SEL]=1,0,<%= @base["06"]["hexbgr"] %>,<%= @base["06"]["hexbgr"] %>,0			; 選択範囲
+C[SPC]=0,0,<%= @base["00"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 半角空白
+C[SQT]=1,0,<%= @base["0B"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; シングルクォーテーション文字列
+C[TAB]=1,0,<%= @base["03"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; タブ
+C[TXT]=1,0,<%= @base["05"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; テキスト
+C[UND]=0,0,<%= @base["00"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; カーソル行アンダーライン
+C[URL]=1,0,<%= @base["0D"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,1			; URL
+C[VER]=0,0,<%= @base["00"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 指定行縦線
+C[WQT]=1,0,<%= @base["0B"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; ダブルクォーテーション文字列
+C[ZEN]=1,0,<%= @base["0D"]["hexbgr"] %>,<%= @base["00"]["hexbgr"] %>,0			; 日本語空白
