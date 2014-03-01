@@ -29,6 +29,7 @@ Build a scheme stored on some webspace.
 * Mou
 * Notepad++
 * Rouge
+* Sakura Editor
 * Textadept
 * TextMate (Sublime Text)
 * Vim
