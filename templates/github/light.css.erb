@@ -3,6 +3,26 @@
     color: #<%= @base["02"]["hex"] %>;
 }
 
+.blob-code.blob-code-addition, .blob-code.blob-code-addition .blob-code-inner {
+    <%# whitify green by 90% ratio %>
+    background-color: #<%= tint(@base["0B"]["rgb"], 90).map{|x| x.to_s(16).rjust(2, '0')}.join('') %>;
+}
+
+.blob-code-addition .x {
+    <%# whitify green by 50% ratio %>
+    background-color: #<%= tint(@base["0B"]["rgb"], 50).map{|x| x.to_s(16).rjust(2, '0')}.join('') %>;
+}
+
+.blob-code.blob-code-deletion, .blob-code.blob-code-deletion .blob-code-inner {
+    <%# whitify red by 90% ratio %>
+    background-color: #<%= tint(@base["08"]["rgb"], 90).map{|x| x.to_s(16).rjust(2, '0')}.join('') %>;
+}
+
+.blob-code-deletion .x {
+    <%# whitify red by 50% ratio %>
+    background-color: #<%= tint(@base["08"]["rgb"], 50).map{|x| x.to_s(16).rjust(2, '0')}.join('') %>;
+}
+
 .pl-c {
     color: #<%= @base["03"]["hex"] %>;
 }
