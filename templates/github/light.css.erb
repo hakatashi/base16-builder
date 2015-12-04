@@ -23,6 +23,10 @@
     background-color: #<%= tint(@base["08"]["rgb"], 50).map{|x| x.to_s(16).rjust(2, '0')}.join('') %>;
 }
 
+.blob-code-hunk, .blob-code-expandable {
+    background-color: #<%= @base["06"]["hex"] %>;
+}
+
 .pl-c {
     color: #<%= @base["03"]["hex"] %>;
 }
