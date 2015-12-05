@@ -23,6 +23,11 @@
     background-color: #<%= shade(@base["08"]["rgb"], 65).map{|x| x.to_s(16).rjust(2, '0')}.join('') %>;
 }
 
+.blob-code-inner[style="background-color: rgb(248, 238, 199);"] {
+    <%# blackify yellow by 85% ratio %>
+    background-color: #<%= shade(@base["0A"]["rgb"], 85).map{|x| x.to_s(16).rjust(2, '0')}.join('') %>;
+}
+
 .blob-code-hunk, .blob-code-expandable {
     background-color: #<%= @base["01"]["hex"] %>;
 }
